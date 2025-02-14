@@ -9,7 +9,7 @@ export default async function UserPage() {
   return (
     user ? (
       <div>
-        <h2>user.name}</h2>
+        <h2>{user.name}</h2>
         <p>{user.email}</p>
       </div>
   ): <Link href="/api/auth/login">Login</Link>
